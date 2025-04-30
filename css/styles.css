@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+body { 	
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    background-color: whitesmoke;  
+    padding: 5px; 		 
+    } 
+article {
+    margin: 10px;
+}
+article>h2 {
+    background-color: #F2C1D1;
+    color: white;
+    font-size: 1.7em;
+    text-shadow: 1px 1px 0.5px #D4AF37, 1px 1px 12px black;
+    font-family: "Fontdiner Swanky", serif;
+    text-align: center;
+    padding: 10px;
+    margin: 1em 15px;
+    border-radius: 6px;
+}
+article>img {
+    float: right;
+    width: 20%;
+    height: auto;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.uno {
+    float: right;
+    width: 13%;
+    height: auto;
+    margin-left: 5px;
+}
+article>p {
+    text-align: justify;   
+}
+p:first-of-type::first-letter {
+    font-family: "Fontdiner Swanky", serif;
+    font-size: 3em;
+    line-height: 1.5em;
+    color: white;
+    background-color: #81D8D0;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    padding: 0 7px;
+    float: left;
+    margin-right: 10px;
+}
+article>p:last-of-type::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-image: url(../img/divider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    background-size: contain;
+}
+address {
+    margin-bottom: 1em;
+    text-align: right;
+    font-family: "cusive italic", serif;
+    color: #0012d3;
+    font-size: 1.4em;
+}
+.moraleja {
+    width: 80%;
+    background-color: #2A3439;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 8px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin: 0 auto;
+}
+.moraleja::before {
+    content: "Moraleja";
+    font-family: "Fontdiner Swanky", serif;
+    color: #FFE4E1;
+    text-shadow: 0.5px 0.5px 0px #F2C1D1;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-size: 1.1em;
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
